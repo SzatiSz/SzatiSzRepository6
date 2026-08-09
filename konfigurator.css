@@ -1,0 +1,60 @@
+body {
+    font-family: Georgia;
+}
+
+main {
+    background-color: maroon;
+    color:white;
+    height: 600px;
+    width: 30%;
+    float: left;
+    padding: 1%;
+    
+}
+article {
+    background-color: maroon;
+    color: white;
+    height: 627px;
+    width: 68%;
+    overflow: auto;
+    float: left;
+
+}
+p {
+    padding: 10px;
+}
+
+
+#btn1 {
+    background-color: indigo;
+}
+
+#btn2 {
+    background-color:SteelBlue;
+}
+
+#btn3 {
+    background-color:Olive;
+}
+#obrazek {
+    padding: 10px;
+    border: 1px solid white;
+    float: left;
+    width: 500px;
+
+}
+footer {
+    background-color: DimGray;
+    color:white;
+    width: 100%;
+    clear: both;
+    padding: 10px;
+}
+div#lista{
+    float: left;
+}
+div#napis {
+    clear: both;
+    width: 70%;
+}
+

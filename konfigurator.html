@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Style w JavaScript</title>
+        <link rel="stylesheet" href="/Users/NikolaSadownik/Desktop/VSC/CSS/konfigurator.css">
+        <script src="/Users/NikolaSadownik/Desktop/VSC/JAVASCRIPT/konfigurator.js"></script>
+    </head>
+    <body>
+        <main>
+            <h1>Konfigurator stylu</h1>
+            <p>Podaj kolor tła<br>
+
+            <button id="btn1" value="Indigo" onclick="kolor()">Indigo</button>
+            <button id="btn2" value="SteelBlue" onclick="kolor2()">SteelBlue</button>
+            <button id="btn3" value="Olive" onclick="kolor3()">Olive</button></p>
+            <p>Podaj kolor czcionki<br>
+            <select id="select" onchange="kolorczcionki()">
+                <option value="White">White</option>
+                <option value="Tan">Tan</option>
+                <option value="Bisque">Bisque</option>
+                <option value="Plum">Plum</option> </p>
+            </select>
+            <p>Podaj rozmiar czcionki w procentach, np. 200%<br>
+            <input onchange="rozmiar()"type="text" id="rozmiar" placeholder="100%"></p>
+
+            <p>Czy rysunek ma mieć ramkę?<br>
+            <input onchange="ramka()"type="checkbox" id="ramka" checked><label for="ramka">Rysuj ramkę</label></p>
+
+            <p>Jaki jest typ punktora listy?<br>
+            <input onchange="radio()" type="radio" value="disc" name="radio" id="0" checked><label for="0">dysk</label><br>
+
+            <input onchange="radio()" type="radio" value="square" name="radio" id="1"><label for="1">kwadrat</label><br>
+
+            <input onchange="radio()" type="radio" value="circle" name="radio" id="2"><label for="2">okrąg</label></p>
+
+
+        </main>
+        <article id="article">
+            <img id="obrazek" src="https://as2.ftcdn.net/v2/jpg/01/95/21/13/1000_F_195211339_CbltYobw69avULc1dXJNsQqQaAZIdOjg.jpg" alt="półwysep Gibraltar">
+            <div id="lista">
+                <ul id="ul">
+                <li>element 1</li>
+                <li>element 2</li>
+                <li>element 3</li>
+            </ul>
+            </div>
+            <div id="napis"></div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+        <footer>
+            Autor: Nikola Sadownik &copy; Wszelkie prawa zastrzeżone - 2026
+        </footer>
+    </body>
+</html>
